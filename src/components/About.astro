@@ -1,0 +1,69 @@
+---
+const expertise = [
+  {
+    category: 'Vehicle control and navigation',
+    details: 'Autonomous vehicles, surface and subsea vessels, aircraft, drones and UAVs',
+  },
+  {
+    category: 'Aircraft systems',
+    details: 'Avionics, turbines and air propulsion systems, GPS, RADAR/LiDAR, aircraft communication',
+  },
+  {
+    category: 'Space systems',
+    details: 'Spacecraft, ion propulsion, rocket propulsion, power, payloads, material compatibility',
+  },
+  {
+    category: 'Semiconductor fabrication/MEMS',
+    details: 'Deep reactive ion etching, Si/SiO2 wafer processing, photolithography, atomic force microscopy, wafer bonding',
+  },
+  {
+    category: 'Datacenters',
+    details: 'High-performance compute clusters, temperature management and cooling systems, networks, three-dimensional integrated circuits (3DICs), high-bandwidth memory (HBM), integrated circuits including CPUs, GPUs, TPUs, and photonic integrated circuits',
+  },
+  {
+    category: 'Medical devices',
+    details: 'Wearable tech, biometric sensors, disease and activity monitoring',
+  },
+  {
+    category: 'RF/Wireless communication',
+    details: 'Signal processing, antenna arrangements, sensors and instrumentation',
+  },
+];
+---
+
+<section id="about" class="py-20 bg-[var(--color-bg)]">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-3 gap-12 items-start">
+      <!-- Main Content -->
+      <div class="lg:col-span-2">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6">
+          Areas of Expertise
+        </h2>
+
+        <p class="text-lg text-[var(--color-secondary)] mb-8 leading-relaxed">
+          Alex draws on a wealth of experience in both academic research and industry including a graduate degree in Space Propulsion from MIT, academic research experience in biology, neuroscience, condensed matter physics, and microelectromechanical systems (MEMS), and industry experience in composites and additive manufacturing, space systems, vehicle control and navigation, among others.
+        </p>
+
+        <ul class="space-y-3 mb-8">
+          {expertise.map((item) => (
+            <li class="text-[var(--color-secondary)] leading-relaxed">
+              <span class="font-semibold text-[var(--color-primary)]">{item.category}</span> — {item.details}
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <!-- Headshot -->
+      <div class="lg:col-span-1">
+        <div class="aspect-square bg-[var(--color-bg-subtle)] rounded-lg overflow-hidden border border-gray-200">
+          <img
+            src="/images/headshot.jpg"
+            alt="Alexander Bost"
+            class="w-full h-full object-cover"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

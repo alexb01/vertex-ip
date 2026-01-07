@@ -1,0 +1,67 @@
+---
+const services = [
+  'Patentability, prior art, and patent landscape searches',
+  'Application drafting',
+  'Patent portfolio development',
+  'IPR prior art searches and claim mapping',
+  'Claims drafting',
+  'Office Action responses',
+  'Freedom to Operate Searches',
+  'Formal drawings drafting',
+  'Overflow cases',
+  'Litigation support',
+];
+
+// Icons for the alternative icon cards view (used in commented section below)
+const serviceIcons: Record<string, string> = {
+  'Patentability, prior art, and patent landscape searching': '🔍',
+  'Litigation support': '⚖️',
+  'IPR prior art searching and claim mapping': '📋',
+  'Formal drawings drafting': '✏️',
+  'Claims drafting': '📝',
+  'Application drafting': '📄',
+  'Office Action responses': '💬',
+  'Filing strategy': '🎯',
+  'Overflow cases': '📥',
+  'Patent portfolio development': '📊',
+};
+---
+
+<section id="services" class="py-20 bg-[var(--color-bg-subtle)]">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl md:text-4xl font-bold text-left mb-6">
+      Services
+    </h2>
+
+    <p class="text-lg text-[var(--color-secondary)] text-left mb-12 leading-relaxed">
+      Vertex IP was founded to provide the highest quality patent landscape searching and patent drafting services drawing on extensive firsthand experience with the patent application process at both the USPTO and in law firm practice.
+    </p>
+
+    <!-- Card Grid Layout -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {services.map((service) => (
+        <div class="p-5 bg-[var(--color-bg)] rounded-lg border border-gray-200 hover:border-[var(--color-accent)] transition-colors">
+          <p class="text-[var(--color-primary)] font-medium">{service}</p>
+        </div>
+      ))}
+    </div>
+
+    <!--
+    ============================================
+    ALTERNATIVE: Icon Cards Layout
+    Uncomment this section and comment out the Card Grid Layout above to use icons
+    ============================================
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {services.map((service) => (
+        <div class="p-5 bg-[var(--color-bg)] rounded-lg border border-gray-200 hover:border-[var(--color-accent)] transition-colors flex items-start gap-3">
+          <span class="text-2xl" role="img" aria-hidden="true">{serviceIcons[service]}</span>
+          <p class="text-[var(--color-primary)] font-medium">{service}</p>
+        </div>
+      ))}
+    </div>
+
+    ============================================
+    -->
+  </div>
+</section>
