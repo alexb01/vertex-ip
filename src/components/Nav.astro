@@ -1,9 +1,10 @@
 ---
 const navLinks = [
   { href: '/#services', label: 'Services' },
+  { href: '/#areas-of-expertise', label: 'Expertise' },
   { href: '/#about', label: 'About' },
-  { href: '/blog', label: 'Blog' },
   { href: '/#contact', label: 'Contact' },
+  //{ href: '/blog', label: 'Blog' },
 ];
 ---
 
@@ -11,8 +12,8 @@ const navLinks = [
   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between items-center h-16">
       <!-- Logo -->
-      <a href="/" class="text-2xl font-semibold text-[var(--color-primary)] no-underline hover:opacity-100">
-        Vertex IP
+      <a href="/" class="text-4xl font-bold font-['Cormorant_Garamond'] !text-[var(--color-primary)] no-underline tracking-tight">
+        Vertex <span class="text-[var(--color-accent)] font-semibold">IP</span>
       </a>
 
       <!-- Desktop Navigation -->
@@ -20,7 +21,7 @@ const navLinks = [
         {navLinks.map((link) => (
           <a
             href={link.href}
-            class="text-[var(--color-secondary)] hover:text-[var(--color-primary)] transition-colors no-underline"
+            class="!text-[var(--color-secondary)] hover:!text-[var(--color-primary)] transition-colors no-underline"
           >
             {link.label}
           </a>

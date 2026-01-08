@@ -1,56 +1,35 @@
----
-const expertise = [
-  {
-    category: 'Vehicle control and navigation',
-    details: 'Autonomous vehicles, surface and subsea vessels, aircraft, drones and UAVs',
-  },
-  {
-    category: 'Aircraft systems',
-    details: 'Avionics, turbines and air propulsion systems, GPS, RADAR/LiDAR, aircraft communication',
-  },
-  {
-    category: 'Space systems',
-    details: 'Spacecraft, ion propulsion, rocket propulsion, power, payloads, material compatibility',
-  },
-  {
-    category: 'Semiconductor fabrication/MEMS',
-    details: 'Deep reactive ion etching, Si/SiO2 wafer processing, photolithography, atomic force microscopy, wafer bonding',
-  },
-  {
-    category: 'Datacenters',
-    details: 'High-performance compute clusters, temperature management and cooling systems, networks, three-dimensional integrated circuits (3DICs), high-bandwidth memory (HBM), integrated circuits including CPUs, GPUs, TPUs, and photonic integrated circuits',
-  },
-  {
-    category: 'Medical devices',
-    details: 'Wearable tech, biometric sensors, disease and activity monitoring',
-  },
-  {
-    category: 'RF/Wireless communication',
-    details: 'Signal processing, antenna arrangements, sensors and instrumentation',
-  },
-];
----
-
-<section id="about" class="py-20 bg-[var(--color-bg)]">
+<section id="about" class="py-20 bg-[var(--color-bg-subtle)]">
   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid lg:grid-cols-3 gap-12 items-start">
-      <!-- Main Content -->
-      <div class="lg:col-span-2">
-        <h2 class="text-3xl md:text-4xl font-bold mb-6">
-          Areas of Expertise
-        </h2>
+    <h2 class="text-3xl md:text-4xl font-bold text-left mb-6">
+      About Vertex IP
+    </h2>
 
-        <p class="text-lg text-[var(--color-secondary)] mb-8 leading-relaxed">
-          Alex draws on a wealth of experience in both academic research and industry including a graduate degree in Space Propulsion from MIT, academic research experience in biology, neuroscience, condensed matter physics, and microelectromechanical systems (MEMS), and industry experience in composites and additive manufacturing, space systems, vehicle control and navigation, among others.
+    <div class="grid lg:grid-cols-3 gap-12 items-start">
+      <!-- Text content -->
+      <div class="lg:col-span-2">
+        <p class="text-lg text-[var(--color-secondary)] text-justify mb-8 leading-relaxed">
+          Vertex IP is owned and operated by Alexander Bost, a former patent examiner, registered patent practitioner (USPTO Reg. No. 81.681), and MIT alumnus.
         </p>
 
-        <ul class="space-y-3 mb-8">
-          {expertise.map((item) => (
-            <li class="text-[var(--color-secondary)] leading-relaxed">
-              <span class="font-semibold text-[var(--color-primary)]">{item.category}</span> — {item.details}
-            </li>
-          ))}
-        </ul>
+        <p class="text-lg text-[var(--color-secondary)] text-justify mb-8 leading-relaxed">
+          After graduating from Lehigh University with a B.S. in Mechanical Engineering, Alex spent four years conducting academic research at MIT in fields spanning materials science, biology, computational neuroscience, condensed matter physics, and space systems. He earned a Master's degree from MIT in Aeronautics and Astronautics with a focus on space propulsion, where he worked on ion electrospray propulsion systems.
+        </p>
+
+        <p class="text-lg text-[var(--color-secondary)] text-justify mb-8 leading-relaxed">
+          Alex worked at an ion engine startup after completing his graduate degree, performing vacuum chamber testing, microelectromechanical systems (MEMS) fabrication in a Class 10 cleanroom, and laser micromachining. He helped lead a breakthrough in microfabrication techniques that improved microstructure manufacturing precision by more than 10x and ion thruster performance by more than 5x. He is a named inventor on U.S. Patent 11,545,351, <i>Apparatus for Electrospray Emission.</i>
+        </p>
+
+        <p class="text-lg text-[var(--color-secondary)] text-justify mb-8 leading-relaxed">
+          Alex spent three years as a patent examiner with the USPTO in Art Unit 3662, examining patent applications in vehicle control and navigation with a focus on autonomous vehicles, AI/ML systems, and robotics, producing over 300 office actions during that time.
+        </p>
+
+        <p class="text-lg text-[var(--color-secondary)] text-justify mb-8 leading-relaxed">
+          After leaving the USPTO, Alex worked at a composites manufacturing startup managing patent filings, interfacing with engineers to identify potential inventions, and educating the company about the patenting process. He passed the USPTO Patent Practitioner Registration Exam in early 2023 and spent two and a half years as a patent agent in Boston IP law firm practice before joining a patent software startup developing agentic AI tools for patent analysis.
+        </p>
+
+        <p class="text-lg text-[var(--color-secondary)] text-justify mb-8 leading-relaxed">
+          Outside of patent law, Alex enjoys being outside as much as possible through sailing, wing foiling, hiking, and camping and has a Wilderness First Responder certification.
+        </p>
       </div>
 
       <!-- Headshot -->
