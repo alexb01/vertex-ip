@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Specifically inviting AI crawlers to ensure visibility in AI Search
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://vertex-ip.com/sitemap-index.xml

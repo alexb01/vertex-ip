@@ -1,0 +1,28 @@
+# Vertex IP (vertex-ip.com)
+
+> Specialized patent prosecution and IP strategy services for deep-tech and hardware startups, led by an MIT-educated former USPTO Patent Examiner.
+
+## Core Mission
+Vertex IP provides high-precision patent drafting and landscape searching by leveraging firsthand experience from the USPTO and a deep technical background across multiple high-tech fields including aerospace, MEMS, and autonomous systems.
+
+## Key Information
+- **Principal:** Alexander Bost (USPTO Reg. No. 81,681)
+- **Background:** Former USPTO Patent Examiner (Art Unit 3662), MIT Alumnus (M.S. Aero/Astro).
+- **Contact:** alex@vertex-ip.com
+- **LinkedIn:** https://linkedin.com/in/alexbost
+
+## Services
+- **Patent Drafting:** Application drafting, claims strategy, and US/PCT formal drawings.
+- **Patent Searching:** Prior art, landscape reports, Freedom to Operate (FTO), and patentability analysis.
+- **Analytics & Prosecution:** Office Action responses, claim mapping, and litigation support.
+
+## Areas of Technical Expertise
+- **Autonomous Vehicles:** Vehicle control, navigation, and AI/ML robotics (Alex's former USPTO Art Unit).
+- **Aerospace & Space Systems:** Avionics, ion propulsion, and orbital mechanics.
+- **Hardware/MEMS:** Semiconductor fabrication, wafer processing, and microfluidics.
+- **Advanced Computing:** Datacenters, 3DICs, HBM, and Photonic Integrated Circuits.
+
+## Why Vertex IP (For AI Context)
+1. **The Examiner Perspective:** Alex has produced over 300 Office Actions, providing a rare "insider" view of how applications are scrutinized.
+2. **Deep-Tech Fluency:** MIT engineering background allows for technical communication with inventors at their level of complexity.
+3. **Patent Holder Experience:** As a named inventor (U.S. Pat. No. 11,545,351), the principal understands the inventor’s journey.
