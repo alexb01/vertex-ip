@@ -33,21 +33,45 @@ const expertise = [
 
 <section id="areas-of-expertise" class="py-20 bg-[var(--color-bg)]">
   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="grid lg:grid-cols-3 gap-12 items-start">
-      <!-- Main Content -->
-      <div class="lg:col-span-2">
-        <h2 class="text-3xl md:text-4xl font-bold mb-6">
-          Areas of Expertise
-        </h2>
 
-        <ul class="space-y-3 mb-8">
-          {expertise.map((item) => (
-            <li class="text-[var(--color-secondary)] leading-relaxed">
-              <span class="font-semibold text-[var(--color-primary)]">{item.category}</span> — {item.details}
-            </li>
-          ))}
-        </ul>
+    <!-- Option A: 80% width (4/5 columns) 
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl md:text-4xl font-bold mb-10">
+        Areas of Expertise
+      </h2>
+
+      <div class="grid md:grid-cols-2 gap-x-16 gap-y-8">
+        {expertise.map((item) => (
+          <div class="expertise-accent-item">
+            <h3 class="text-md font-semibold tracking-wide uppercase text-[var(--color-accent)] mb-2">
+              {item.category}
+            </h3>
+            <p class="text-lg text-[var(--color-secondary)] leading-relaxed">
+              {item.details}
+            </p>
+          </div>
+        ))}
       </div>
     </div>
+    -->
+
+    <!-- Option B: 75% width (3/4 columns) -->
+    <div class="grid lg:grid-cols-4 gap-12 items-start">
+      <div class="lg:col-span-3">
+        <h2 class="text-3xl md:text-4xl font-bold mb-6 text-left">
+          Areas of Expertise
+        </h2>
+        <div class="expertise-list">
+          {expertise.map((item) => (
+            <div class="expertise-item">
+              <h3>{item.category}</h3>
+              <p>{item.details}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+    
+
   </div>
 </section>

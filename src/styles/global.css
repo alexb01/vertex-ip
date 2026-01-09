@@ -90,3 +90,35 @@ a:hover {
     grid-template-columns: 1fr;
   }
 }
+
+.expertise-item {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 24px;
+  align-items: baseline;
+}
+
+.expertise-item:last-child {
+  border-bottom: none;
+}
+
+.expertise-item h4 {
+  font-weight: 600;
+  color: var(--color-primary);
+  font-size: 0.95rem;
+}
+
+.expertise-item p {
+  color: var(--color-secondary);
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+@media (max-width: 640px) {
+  .expertise-item {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
