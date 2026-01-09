@@ -1,0 +1,48 @@
+nohup: ignoring input
+
+> astro-temp@0.0.1 dev
+> astro dev
+
+10:14:57 [types] Generated 0ms
+10:14:57 [content] Syncing content
+10:14:57 [WARN] [glob-loader] No files found matching "**/*.md,!**/_*/**/*.md,!**/_*.md" in directory "src/content/blog"
+10:14:57 [content] Synced content
+
+ astro  v5.16.6 ready in 434 ms
+
+┃ Local    http://localhost:4321/
+┃ Network  use --host to expose
+
+10:14:57 watching for file changes...
+10:14:58 [200] / 52ms
+11:11:05 [200] / 7ms
+11:11:19 [200] / 5ms
+11:11:19 [200] / 3ms
+11:11:21 [200] / 3ms
+11:11:25 [200] / 4ms
+11:12:11 [watch] src/layouts/Layout.astro
+11:12:11 [watch] src/layouts/Layout.astro
+11:12:11 [200] / 8ms
+11:12:11 [404] /favicon-white-bg.svg 2ms
+11:12:19 [200] / 4ms
+11:12:19 [404] /favicon-white-bg.svg 1ms
+11:14:05 [watch] src/layouts/Layout.astro
+11:14:05 [watch] src/layouts/Layout.astro
+11:14:05 [200] / 8ms
+11:14:12 [watch] src/layouts/Layout.astro
+11:14:12 [watch] src/layouts/Layout.astro
+11:14:12 [200] / 8ms
+11:18:22 [watch] /src/styles/global.css
+11:18:22 [watch] public/favicon.svg
+11:18:22 [ERROR] [vite] Internal server error: ENOENT: no such file or directory, open '/home/alex/Projects/vertex-ip/public/favicon.svg'
+  Plugin: vite:css-analysis
+  File: /home/alex/Projects/vertex-ip/src/styles/global.css
+      at async open (node:internal/fs/promises:639:25)
+      at async Object.readFile (node:internal/fs/promises:1246:14)
+      at async fileToDevUrl (file:///home/alex/Projects/vertex-ip/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:10500:21)
+      at async TransformPluginContext.handler (file:///home/alex/Projects/vertex-ip/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:43496:29)
+      at async EnvironmentPluginContainer.transform (file:///home/alex/Projects/vertex-ip/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:42323:18)
+      at async loadAndTransform (file:///home/alex/Projects/vertex-ip/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:35739:27)
+      at async viteTransformMiddleware (file:///home/alex/Projects/vertex-ip/node_modules/vite/dist/node/chunks/dep-D4NMHUTW.js:37254:24)
+11:18:25 [watch] /src/styles/global.css
+11:18:25 [watch] public/favicon.svg
