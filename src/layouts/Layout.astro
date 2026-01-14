@@ -8,7 +8,7 @@ interface Props {
 
 const {
   title = 'Vertex IP | Patent Agent Services',
-  description = 'Patent prosecution, prior art searching, and IP strategy services from a former USPTO patent examiner, currently registered patent practitioner, and MIT-educated engineer.',
+  description = 'Patent drafting, prior art searching, and IP strategy services from a former USPTO patent examiner, currently registered patent practitioner, and MIT-educated engineer.',
 } = Astro.props;
 
 const siteUrl = 'https://vertex-ip.com';
@@ -44,8 +44,8 @@ const siteUrl = 'https://vertex-ip.com';
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
     <title>{title}</title>
-  </head>
-  <body class="antialiased">
-    <slot />
-  </body>
+    </head>
+    <body class="antialiased">
+      <slot />
+    </body>
 </html>
