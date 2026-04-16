@@ -1,10 +1,22 @@
 <section id="about" class="py-20 bg-[var(--color-bg-subtle)]">
   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-    <h2 class="text-3xl md:text-4xl font-bold text-left mb-6">
+    <h2 class="text-3xl md:text-4xl font-bold text-right mb-6">
       About Vertex IP
     </h2>
 
     <div class="grid lg:grid-cols-3 gap-12 items-start">
+      <!-- Headshot -->
+      <div class="lg:col-span-1">
+        <div class="aspect-square bg-[var(--color-bg-subtle)] rounded-lg overflow-hidden border border-gray-200">
+          <img
+            src="/images/headshot.jpg"
+            alt="Alexander Bost"
+            class="w-full h-full object-cover"
+            loading="lazy"
+          />
+        </div>
+      </div>
+
       <!-- Text content -->
       <div class="lg:col-span-2">
         <p class="text-lg text-[var(--color-secondary)] text-justify mb-8 leading-relaxed">
@@ -32,17 +44,6 @@
         </p>
       </div>
 
-      <!-- Headshot -->
-      <div class="lg:col-span-1">
-        <div class="aspect-square bg-[var(--color-bg-subtle)] rounded-lg overflow-hidden border border-gray-200">
-          <img
-            src="/images/headshot.jpg"
-            alt="Alexander Bost"
-            class="w-full h-full object-cover"
-            loading="lazy"
-          />
-        </div>
-      </div>
     </div>
   </div>
 </section>
